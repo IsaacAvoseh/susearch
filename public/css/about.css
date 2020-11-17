@@ -1,0 +1,17 @@
+.loading{
+    border: 20px solid yellow;
+    border-radius: 50%;
+    border-bottom-color: red;
+    border-left-color:  #79C255;
+    border-top-color: blue;
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
+    margin-left: 500px;
+
+    animation: roll 1s linear infinite;
+}
+@keyframes roll{
+  0% {transform: rotate(0deg); }
+  100% { transform: rotate(360deg);}
+}
