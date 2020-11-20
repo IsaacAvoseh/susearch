@@ -363,17 +363,24 @@
   }
 	 */
 
-	@media screen and (min-width: 270px) and (max-width: 479px){
+	@media screen and (min-width: 270px) and (max-width: 489px){
 
 		 body{
+
+			width: 350px;
 				margin: 0px;
 				padding: 0px;
+				background-color: whitesmoke;
 				background: #79C255;
 				font-family: 'Montserrat', sans-serif;
-				font-size: 9pt;
-				font-weight: 200;
-				color: #656565;
+				/* font-size: 9pt; */
+				/* font-weight: 200; */
+				/* color: #656565; */
 	  
+		 }
+
+		 footer{
+			 background-color: #79C255;
 		 }
 
 		 /* #menu
@@ -388,41 +395,40 @@
 	h1
 	{
 	
-		font-weight: 100px;
+		font-weight: 10px;
 		color: #2B3F48;
 	}
 
-	#menu
-	{
-		position: relative;
-		top: 1em;
-		right: 30px;
-		
+   nav{
+	   width: 200px;
+   }
+
+	#menu ul {
+		display: flex;
+		flex-direction: column;
+		line-height: 50px; 
+		/* margin-bottom: 220px; */
+		font-size: 13px;
+		/* background-color: white; */
 	}
-	
-	#menu ul
-	{
-		display: inline-block;
-		
-	}
-	
-	#menu li
-	{
-		display: block;
-		text-align: center;
-	}
-	
-	#menu li a, #menu li span
-	{
-		margin: -5px;
-		letter-spacing: 1px;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-size: 8px;
-		color: #2B3F48;
+	section{
+		background-color: white;
 	}
 
-			
+	#menu {
+		margin-right: 65%;
+		width: 170px;
+		height: 320px;
+		background-color: whitesmoke;
+	
+	}
+	
+	#banner{
+		margin-top: -10px;
+		width: 250px;
+		margin-left: 105px;
+	}
+
 	#wrapper
 	{
 		margin-top: 20px;
@@ -433,6 +439,7 @@
 	{
 		position: relative;
 		padding: 2em 0em;
+		top: -30px;
 	
 	}
 
@@ -443,14 +450,27 @@
 		text-transform: uppercase;
 		color: #79C255;
 		font-size: 30px;
-		right: -65px;
+		left: 40px;
+		text-align: center;
+		top: 20px;
 	}
 
+
+	#space{
+		border-radius: 100%;
+		width: 50px;
+		height: 70px;
+		line-height: 20px;
+	}
+
+	#none a{
+		border-radius: 100%;
+	}
 	.container
 	{
 
 		/* margin: 0em auto; */
-		width: 400px;
+		width: 270px;
 		
 	}
 
@@ -458,60 +478,85 @@
 	{
 		/* overflow: hidden; */
 		/* padding: 5em 0em; */
-		background: #79C255;
+		/* background: #79C255; */
 		color: rgba(255,255,255,.8);
 		text-align: center;
 	}
 
-	#featured a
+	/* #featured a
 	{
 		color: rgba(255,255,255,1);
-	}
+	} */
 	
-	p{
-		padding: 20px;
-		width: 70%;
-	}
+     /* #featured .container p{
+		width: 290px;
+	} */
 
 
 	#featured .title h2
 	{
 		color: #FFF;
-		margin-right: 70px;
+		margin: 0px; 
+		width: 270px;
+		font-size: 20px;
+
 	}
 
 	#featured .title .byline
 	{
 		color: rgba(255,255,255,.6);
-	}
-	.title h2
+	} 
+	/* .title h2
 	{
 		text-transform: uppercase;
 		font-size: 1.5em;
-	}
+		text-align: center;
+		color: red;
+		
+	} */
 	
-	.title .byline
+	/* .title .byline
 	{
 		font-size: 1em;
-		color: #6F6F6F;
-	}
+		color: white;
+		color: red;
+	} */
 		
-	#extra .title
+	/* /* #extra .title
 	{
 		text-align: center;
-		margin-left: -80px;
+		/* margin-left: -80px; 
+	}  */
+
+	/* div #extra .title h2{
+		color:red;
+		font-size: 20px;
+	} */
+
+	#h2{
+		font-size: 20px;
+		margin-top: -50px;
 	}
 	
-	.boxC, .actions
-	{
-		float: left
+	#h2e{
+		font-size: 19px;
 	}
 
-	#copyright
+	/* .boxC, .actions
+	{
+		float: left
+	} */
+
+	/* #copyright
 	{
 		overflow: hidden;
 		padding: 5em 0em;
 		border-top: 1px solid rgba(255,255,255,0.08);
+	} */
+	.boxA, .boxB, .boxC{
+		font-size: 14px;
+		width: 270px;
+
 	}
 
 	
@@ -524,23 +569,49 @@
 }
 
 
-	#extra
+	/* #extra
 	{
 		overflow: hidden;
 		padding: 5em 0em;
-	}
+	} */
 	
 	#extra .title
 	{
 		text-align: center;
 	}
 	
-	#extra .button
+	/* di#extra li .button a
 	{
-		margin-top: 5em;
+		margin-top: 3em;
+		width: 90px;
+		height: 0px;
+		list-style-type: none;
 	}
+	 */
+	 #none{
+		 list-style: none;
+		 width: 50px;
+		 line-height: 1px;
+		 /* color: red; */
+	 }
 	
-	
+	 /* #space{
+		color: yellow;
+		width: 20px;
+		height: 20px;
+	 } */
+
+	 /* .button {
+		
+		background: #79C255;
+		border-radius: 90px;
+		text-decoration: none;
+	   	width: 40px;
+		   height: 40px;
+		   color: red;
+} */
+
+
 	.gallery
 	{
 		overflow: hidden;
@@ -549,7 +620,7 @@
 
 	.gallery img{
 		height: 60%;
-		width: 100%;
+		width: 270px;
 	}
 
 	.gallery img:hover{
@@ -594,7 +665,7 @@ color: #2B3F48;
 {
 position: relative;
 top: 1em;
-right: 60px;
+right: -70px;
 
 }
 
@@ -616,7 +687,7 @@ margin: -5px;
 letter-spacing: 1px;
 text-decoration: none;
 text-transform: uppercase;
-font-size: 8px;
+font-size: 12px;
 color: #2B3F48;
 }
 

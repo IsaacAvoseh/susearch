@@ -1,17 +1,52 @@
 .loading{
-    border: 20px solid yellow;
-    border-radius: 50%;
-    border-bottom-color: red;
-    border-left-color:  #79C255;
-    border-top-color: blue;
-    height: 150px;
-    width: 150px;
-    font-size: 30px;
-    margin-left: 500px;
+  border: 20px solid yellow;
+  border-radius: 50%;
+  border-bottom-color: red;
+  border-left-color:  #79C255;
+  border-top-color: blue;
+  height: 150px;
+  width: 150px;
+  font-size: 30px;
+  margin-left: 500px;
 
-    animation: roll 1s linear infinite;
+  animation: roll 1s linear infinite;
 }
 @keyframes roll{
-  0% {transform: rotate(0deg); }
-  100% { transform: rotate(360deg);}
+0% {transform: rotate(0deg); }
+100% { transform: rotate(360deg);}
+}
+
+
+@media screen and (min-width: 270px) and (max-width: 479px){
+div{
+  width: 270px;
+}
+h1{
+  font-weight: 10px;
+  color: red;
+}
+
+.loading{
+  border: 20px solid yellow;
+  border-radius: 50%;
+  border-bottom-color: red;
+  border-left-color:  #79C255;
+  border-top-color: blue;
+  height: 150px;
+  width: 150px;
+  font-size: 30px;
+  margin: auto;
+  padding: auto;
+  justify-content: center;
+
+  animation: roll 1s linear infinite;
+}
+@keyframes roll{
+0% {transform: rotate(0deg); }
+100% { transform: rotate(360deg);}
+ }
+ h2{
+   border-radius: 50px;
+ }
+
 }
